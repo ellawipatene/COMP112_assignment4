@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=GraphPlotter
+comment1.params=
+comment1.target=void\ plotGraph()
+comment1.text=\n\ Plot\ a\ graph\ of\ a\ sequence\ of\ numbers\ read\ from\ a\ file\ using\ +'s\ for\ each\ point.\n\ The\ origin\ of\ the\ graph\ should\ be\ at\ (GRAPH_LEFT,\ GRAPH_BASE)\n\ The\ method\ should\ ask\ the\ user\ for\ the\ name\ of\ a\ file\ that\ contains\ only\ numbers\n\ It\ should\ then\ plot\ the\ numbers\:\n\ \ -\ Draw\ two\ axes\n\ \ -\ Plot\ each\ number\ as\ a\ small\ +\ \ \ \ \ \ eg,\ to\ plot\ at\ (x,y),\n\ \ \ \ \ \ \ draw\ a\ line\ from\ (x-2,y)\ to\ (x+2,y)\ and\ a\ line\ from\ (x,y-2)\ to\ (x,y+2)\n\ \ -\ The\ x\ value\ of\ the\ first\ point\ should\ be\ at\ GRAPH_LEFT,\ and\n\ \ \ \ the\ last\ point\ should\ be\ at\ GRAPH_RIGHT.\n\ \ -\ (ie,\ the\ points\ should\ be\ separated\ by\ (GRAPH_RIGHT\ -\ GRAPH_LEFT)/(number\ of\ points\ -\ 1)\n\ Hints\:\n\ \ \ look\ at\ the\ model\ answers\ for\ the\ Temperature\ Analyser\ problem\ from\ assignment\ 3.\n
+comment2.params=
+comment2.target=void\ setupGUI()
+comment2.text=set\ up\ the\ buttons
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

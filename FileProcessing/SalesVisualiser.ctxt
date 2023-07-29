@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=SalesVisualiser
+comment0.text=\n\ SalesVisualiser\n\ Reads\ details\ of\ sales\ from\ a\ file\ and\ produces\ a\ bar\ graph\ of\ the\ data\n
+comment1.params=
+comment1.target=void\ graphSales()
+comment1.text=\n\ Asks\ the\ user\ for\ the\ name\ of\ a\ file\ containing\ the\ details\ of\ sales\n\ \ reported\ by\ dealers\ over\ the\ last\ three\ years,\ and\ then\ produces\ a\n\ \ bar\ graph\ of\ the\ data,\ showing\ the\ sales\ for\ each\ month,\ with\ different\n\ \ color\ bars\ for\ each\ year.\n\ Each\ line\ of\ a\ sales\ data\ file\ contains\n\ \ \ \ a\ year,\ a\ month,\ and\ a\ series\ of\ sales\ from\ the\ dealers\n\ \ \ \ There\ may\ be\ a\ different\ number\ of\ sales\ on\ each\ line.\n\ For\ example\:\n\ \ \ 2018\ 01\ 21\ 15\ 32\ 12\ 2\ 7\n\ \ \ 2018\ 02\ 5\ 18\ 12\n\ \ \ \:\n\ \ \ 2019\ 01\ 5\ 5\ 4\ 11\n\ \ \ 2019\ 02\ 41\ 3\n\ \ \ \:\n\ There\ is\ no\ guarantee\ that\ the\ lines\ are\ in\ order\ of\ date\n\ The\ total\ sales\ in\ any\ month\ will\ never\ be\ over\ 200.\n\ \n\ The\ method\ should\ draw\ a\ bar\ graph\ with\ 12\ sets\ of\ bars,\ one\ set\ for\ each\ month\n\ Each\ set\ should\ have\n\ \ a\ red\ bar\ for\ the\ 2018\ data,\n\ \ a\ green\ bar\ for\ the\ 2019\ data,\ and\n\ \ a\ blue\ bar\ for\ the\ 2020\ data\n\ The\ height\ of\ the\ bar\ should\ be\ the\ total\ number\ of\ sales\ in\ that\ month\n\ Hints\:\n\ \ \ Use\ a\ Scanner\ for\ each\ line\n\ \ \ After\ getting\ the\ year\ and\ month\ from\ the\ Scanner,\ you\ will\ need\ a\ loop\ to\ add\n\ \ \ \ \ \ \ up\ all\ the\ sales\ on\ each\ line.\n\ \ \ Look\ carefully\ at\ the\ example\ file\ and\ the\ example\ output.\n
+comment2.params=
+comment2.target=void\ setupGUI()
+comment2.text=set\ up\ the\ buttons
+comment3.params=arguments
+comment3.target=void\ main(java.lang.String[])
+numComments=4

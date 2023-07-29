@@ -1,0 +1,19 @@
+CHARACTER Berthie turtle
+CHARACTER Charlie dog
+ENTER Berthie 520 80
+INTRODUCE Berthie Hello
+SPEAK Berthie In this demo, I will
+SPEAK Berthie show you what we can do
+ENTER Charlie 200 200
+GO Charlie right 0
+JUMP Charlie 40
+JUMP Charlie 40
+THINK Berthie These dogs like jumping
+JUMP Charlie 40
+JUMP Charlie 40
+SPEAK Berthie Please Charlie
+SPEAK Berthie introduce yourself
+INTRODUCE Charlie Rrowff!
+EXIT Charlie
+SPEAK Berthie That's all!
+EXIT Berthie
